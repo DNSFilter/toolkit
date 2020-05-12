@@ -47,5 +47,8 @@
     "react": "16",
     "react-dom": "16"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "sideEffects": false
 }
