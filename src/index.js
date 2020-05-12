@@ -5,7 +5,6 @@ export { default as ErrorBoundary } from "./ErrorBoundary"
 export { useDeepCompareEffect } from "./useDeepCompareEffect"
 export { useMachine } from "./useMachine"
 export { useService } from "./useService"
-export { default as useResource } from "./useResource"
 
 // XState
 export { createMachine } from "./createMachine"
@@ -17,18 +16,17 @@ export { forwardTo } from "./forwardTo"
 export { respond } from "./respond"
 export { escalate } from "./escalate"
 
-// High-level utils
+// Utils
 export { default as buildCreateClient } from "./buildCreateClient"
 export { getEntityAttr } from "./getEntityAttr"
 export { default as createStrategy } from "./createStrategy"
 export { default as createEntitySchema } from "./createEntitySchema"
 export { default as createService } from "./createService"
-export { default as createResource } from "./createResource"
 export { transformValue } from "./transformValue"
 export { normalize } from "./normalize"
 export { cn } from "./cn"
 
-// Low-level utils
+// FP utils
 export { default as __ } from "lodash/fp/__"
 export { default as isNull } from "lodash/fp/isNull"
 export { default as isNil } from "lodash/fp/isNil"
