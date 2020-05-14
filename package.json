@@ -1,5 +1,5 @@
 {
-  "name": "@hnordt/toolkit",
+  "name": "@dnsfilter/toolkit",
   "version": "0.0.0-semantically-released",
   "license": "MIT",
   "source": "src/index.js",
